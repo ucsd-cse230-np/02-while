@@ -3,7 +3,7 @@
 ## Overview
 
 The overall objective of this assignment is to get some 
-experience using the *State monad*, and *Parser Combinators*.
+experience using the *State monad* and *Parser Combinators*.
 
 The assignment is in the following files that you will modify
 
