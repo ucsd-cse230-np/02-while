@@ -1,4 +1,4 @@
-import CSE230.While.Eval
+import CSE230.Eval
 import System.Environment (getArgs)
 
 main :: IO ()

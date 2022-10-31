@@ -4,28 +4,16 @@
 import Test.Tasty
 import Common
 import Prelude hiding (maximum)
-import CSE230.Fold
-import CSE230.While.Types 
-import CSE230.While.Parse (parseFile)
-import CSE230.While.Eval
+import CSE230.Types 
+import CSE230.Parse (parseFile)
+import CSE230.Eval
 import qualified Data.Map as M 
 
 main :: IO ()
 main = runTests 
-  [ probFold
-  , probEval
+  [ probEval
   , probParse
   ]
-
-probFold ::  Score -> TestTree
-probFold sc = testGroup "Problem 1: Fold" 
-  [ scoreTest ((\_ -> myReverse [1,2,3,4,5]),     (), [5,4,3,2,1], 5,   "rev-1")
-  , scoreTest ((\_ -> myFoldr (-) 0 [1,2,3,4,5]), (),           3, 5, "foldr-1")
-  , scoreTest ((\_ -> myFoldl (-) 0 [1,2,3,4,5]), (),       (-15), 5, "foldl-1")
-  ]
-  where
-    scoreTest :: (Show b, Eq b) => (a -> b, a, b, Int, String) -> TestTree
-    scoreTest (f, x, r, n, msg) = scoreTest' sc (return . f, x, r, n, msg)
 
 probEval ::  Score -> TestTree
 probEval sc = testGroup "Problem 2: Eval"

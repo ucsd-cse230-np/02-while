@@ -1,8 +1,8 @@
-module CSE230.While.Parse where
+module CSE230.Parse where
 
 import Text.Parsec hiding (State, between)
 import Text.Parsec.String
-import qualified CSE230.While.Types as H
+import qualified CSE230.Types as H
 
 {- As you can see, it is rather tedious to write the above tests! 
    They correspond to the code in the files `test.imp` and `fact.imp`. 

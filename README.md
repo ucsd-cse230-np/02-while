@@ -7,10 +7,12 @@ experience using the *State monad* and *Parser Combinators*.
 
 The assignment is in the following files that you will modify
 
-- [Fold.hs](/src/CSE230/Fold.hs)
-- [Types.hs](/src/CSE230/While/Types.hs)
 - [Eval.hs](/src/CSE230/While/Eval.hs)
 - [Parse.hs](/src/CSE230/While/Parse.hs)
+
+The following file contains useful definitions but does not need to be modified:
+
+- [Types.hs](/src/CSE230/While/Types.hs)
 
 Finally, there are a`Test.hs` has some sample tests to be used  
 to check your assignments before submitting.
@@ -79,15 +81,11 @@ To submit your code by running `make turnin` or alternately
 
 As before please add the name of any collaborator in the file `COLLABORATORS.md`
 
-## Problem 1: Fold
-
-Fill in the missing code in [Fold.hs](/src/CSE230/Fold.hs)
-
-## Problem 2: An Evaluator for WHILE
+## Problem 1: An Evaluator for WHILE
 
 Fill in the missing code in [Eval.hs](/src/CSE230/While/Eval.hs)
 
-## Problem 3: A Parser for WHILE 
+## Problem 2: A Parser for WHILE 
 
 Fill in the missing code in [Parse.hs](/src/CSE230/While/Parse.hs)
 

@@ -1,4 +1,4 @@
-module CSE230.While.Types where
+module CSE230.Types where
 
 import qualified Data.Map as M -- (findWithDefault, insert, empty)
 

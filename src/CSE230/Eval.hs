@@ -1,7 +1,7 @@
-module CSE230.While.Eval where
+module CSE230.Eval where
 
-import qualified CSE230.While.Types as H
-import qualified CSE230.While.Parse as P
+import qualified CSE230.Types as H
+import qualified CSE230.Parse as P
 import Data.Map
 import Control.Monad.State hiding (when)
 

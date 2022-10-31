@@ -12,10 +12,9 @@ cabal-version:       >=1.10
 
 Library
   ghc-options:        -W
-  exposed-modules:    CSE230.Fold,
-                      CSE230.While.Types,
-                      CSE230.While.Eval,
-                      CSE230.While.Parse 
+  exposed-modules:    CSE230.Types,
+                      CSE230.Eval,
+                      CSE230.Parse 
 
   Default-Extensions: OverloadedStrings
 
