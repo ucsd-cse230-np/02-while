@@ -100,12 +100,11 @@ boolOp _  _            _            = H.BoolVal False
 -}
 
 evalS :: H.Statement -> State H.Store ()
-evalS w@(H.While e s)    = error "fill this in"
 evalS H.Skip             = error "fill this in"
 evalS (H.Sequence s1 s2) = error "fill this in"
 evalS (H.Assign x e )    = error "fill this in"
 evalS (H.If e s1 s2)     = error "fill this in"
-
+evalS w@(H.While e s)    = error "fill this in"
 
 -------------------------------------------------------------------------------
 -- | Executor
