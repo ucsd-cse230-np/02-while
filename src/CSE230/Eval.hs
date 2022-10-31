@@ -24,15 +24,11 @@ evalE e = do
   return (eval s e)
 
 {- Fill in the implementation of `eval` that
-   that takes as input an `Store` and an `Expression` 
+   that takes as input a `Store` and an `Expression` 
    and returns a `Value`.
    
-   HINT: The value `get` is of type `State Store Store`. Thus, to extract 
-         the value of the "current store" in a variable `s` use `s <- get`.
-
    NOTE: we don't have exceptions yet, so if a variable is not found,
    simply return value `0`.
-
  -}
 
 store0 :: H.Store
