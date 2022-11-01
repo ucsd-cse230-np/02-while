@@ -7,12 +7,12 @@ experience using the *State monad* and *Parser Combinators*.
 
 The assignment is in the following files that you will modify
 
-- [Eval.hs](/src/CSE230/While/Eval.hs)
-- [Parse.hs](/src/CSE230/While/Parse.hs)
+- [Eval.hs](/src/CSE230/Eval.hs)
+- [Parse.hs](/src/CSE230/Parse.hs)
 
 The following file contains useful definitions but does not need to be modified:
 
-- [Types.hs](/src/CSE230/While/Types.hs)
+- [Types.hs](/src/CSE230/Types.hs)
 
 Finally, there are a`Test.hs` has some sample tests to be used  
 to check your assignments before submitting.
@@ -33,12 +33,11 @@ with suitable Haskell implementations.
 
 ### Assignment Testing and Evaluation
 
-Your functions/programs **must** compile and run on the [VM][VM-URL].
 
 Most of the points, will be awarded automatically, by
 **evaluating your functions against a given test suite**.
 
-[Tests.hs](/tests/Test.hs) contains a very small suite
+[Tests.hs](/test/Test.hs) contains a very small suite
 of tests which gives you a flavor of of these tests.
 When you run
 
@@ -81,12 +80,11 @@ To submit your code by running `make turnin` or alternately
 
 As before please add the name of any collaborator in the file `COLLABORATORS.md`
 
-## Problem 1: An Evaluator for WHILE
+## Problem 1: An Evaluator for WHILE (160 points)
 
-Fill in the missing code in [Eval.hs](/src/CSE230/While/Eval.hs)
+Fill in the missing code in [Eval.hs](/src/CSE230/Eval.hs)
 
-## Problem 2: A Parser for WHILE 
+## Problem 2: A Parser for WHILE (80 points)
 
-Fill in the missing code in [Parse.hs](/src/CSE230/While/Parse.hs)
+Fill in the missing code in [Parse.hs](/src/CSE230/Parse.hs)
 
-[VM-URL]: https://drive.google.com/file/d/1BlYeSZPNVrxUu8jQWgUkquRBjE6wQww3/view?usp=sharing
