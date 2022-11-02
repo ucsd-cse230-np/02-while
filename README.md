@@ -1,4 +1,4 @@
-# 02-While: Monadic State and Parsing
+# 02-While: Monadic State and Parsing (240 points)
 
 ## Overview
 
