@@ -71,11 +71,11 @@ but you will not be graded on this.
 
 ### Submission Instructions
 
-To submit your code by running `make turnin` or alternately
+To submit your code, just do:
 
-1. Do a `git commit` and `git push` to make your repo up-to-date;
-2. Submit on gradescope, by pointing gradescope to your github repo.
-
+```bash
+$ make turnin
+```
 ### Collaborators
 
 As before please add the name of any collaborator in the file `COLLABORATORS.md`
